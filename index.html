@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="font-bold text-lg">My  Website</span>
+            <ul class="flex">
+                <li class="ml-4"><a href="#" class="hover:text-gray-200">Home</a></li>
+                <li class="ml-4"><a href="#" class="hover:text-gray-200">About</a></li>
+                <li class="ml-4"><a href="#" class="hover:text-gray-200">Services</a></li>
+                <li class="ml-4"><a href="#" class="hover:text-gray-200"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to My  Website</h1>
+            <p class="text-lg">Explore the beauty within!</p>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center mb-8">Our Features</h2>
+        <div class="flex justify-center">
+            <div class="max-w-md bg-white shadow-md rounded-lg overflow-hidden mx-4">
+                <img src="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5nRRVgnzYSSwUoPM7rigVHaj4QhdURLfyt90hBPNzf89n8vZ5bp.jpg" alt="Feature Image" class="w-full h-64 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Feature 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="max-w-md bg-white shadow-md rounded-lg overflow-hidden mx-4">
+                <img src="https://down-th.img.susercontent.com/file/2974e0695a6dc6dc64f526efaee8bfdc" alt="Feature Image" class="w-full h-64 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Feature 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="max-w-md bg-white shadow-md rounded-lg overflow-hidden mx-4">
+                <img src="https://th-test-11.slatic.net/p/6d9b7b5cbaa1392a42ad0be17b1f9b0c.jpg" alt="Feature Image" class="w-full h-64 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Feature 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 My  Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
